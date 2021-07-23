@@ -1,0 +1,79 @@
+.logo{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+
+}
+
+body{
+    background-color: rgb(158, 226, 231);
+    height: 100vh;
+}
+
+h2{
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif';
+}
+/* chat window */
+.container{
+    max-width: 900px;
+    background-color:aliceblue;
+    border-radius: 6px;
+    margin: auto;
+    height: 60vh;
+    overflow-y: auto;
+
+}
+
+.message{
+    background-color: rgba(226, 217, 217, 0.336);
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.left{
+    float :left;
+    clear: both;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+
+
+/* message sending box */
+#send-container{
+    display: block;
+    margin: auto;
+   text-align: center;
+   max-width: 900 px;
+   width: 100%;
+   justify-content: center;
+}
+
+#messageInp{
+    width: 58%;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 35px;
+    margin: 12px 0px;
+
+}
+
+.btn{
+    cursor:pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+.btn:hover{
+    background-color: rgb(223, 115, 115);
+}
+
